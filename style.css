@@ -115,6 +115,7 @@ button:hover {
         border: 1px solid #5a3627;
         padding: 15px;
         border-radius: 10px;
+        transition: 1s;
         h4 {
             color: darkgoldenrod
         }
@@ -125,6 +126,10 @@ button:hover {
         border-radius: 10px;
     }
 
+}
+.lista:hover {
+    transform: scale(1.1);
+    transition: 1s;
 }
 #rodape {
     width: 100%;
