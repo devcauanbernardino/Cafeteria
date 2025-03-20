@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+button {
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 40px;
+    background-color: rgb(95, 45, 22);
+    color: white;
+    transition: 1s;
+}
+h1 {
+    text-shadow: 1px 1px 10px black;
+}
+h1,a {
+    text-decoration: none;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+#titulo {
+    padding: 0px;
+}
+button:hover {
+    transition: 1s;
+    background-color: rgb(56, 27, 14);
+}
+#interface{
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 20px;
+    background-color: #50241c;
+    color: white;
+}
+#home {
+    width: 100%;
+    height: 820px;
+    background-image: url(Imagens/cafe-1920.jpg);
+    color: white;
+    display: flex;
+}
+#sobre {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    bottom: -500px;
+    background-color: rgb(56, 27, 14);
+    color: white;
+}
+.conteudo-home {
+    width: 800px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 200px;
+    left: 480px;
+    text-align: center;
+    box-shadow: 10px 10px 10px #5a3627;
+    border:1px solid #5a3627;
+    padding: 15px;
+}
+.conteudo-sobre {
+    text-align: justify;
+    align-items: center;
+    position: absolute;
+    margin: 130px;
+    padding: 0px;
+}
+.menu a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+.menu a:hover {
+    color: rgb(56, 27, 14);
+    transition:color 0.3s ease-in-out;
+}
+.menu {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+}
+#cardapio {
+    width: 100%;
+    height: 900px;
+    background-image: linear-gradient(to right, #5a3627, #81503a, #d18b6b);
+    .cafe {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
+    .lista {
+        text-align: justify;
+        box-shadow: 10px 10px 10px #5a3627;
+        border: 1px solid #5a3627;
+        padding: 15px;
+        border-radius: 10px;
+        h4 {
+            color: darkgoldenrod
+        }
+    }
+    img {
+        width: 500px;
+        height: 680px;
+        border-radius: 10px;
+    }
+
+}
+#rodape {
+    width: 100%;
+    height: 110px;
+    align-items: center;
+    background-color: #50241c;
+    .rodape-cont {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        align-items: center;
+    }
+    .rodape-cont img{
+        width: 70px;
+        height: 70px;
+    }
+}
