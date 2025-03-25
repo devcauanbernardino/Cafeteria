@@ -30,9 +30,9 @@ h3 {
 p {
     text-indent: 50px;
 }
-#titulo {
-    padding: 0px;
-}
+/* #titulo {
+    margin: 30px;
+} */
 button:hover {
     transition: 1s;
     background-color: rgb(56, 27, 14);
@@ -79,8 +79,8 @@ button:hover {
     text-align: justify;
     align-items: center;
     position: absolute;
-    margin: 130px;
-    padding: 0px;
+    margin: 60px;
+    padding: 10px;
 }
 .menu a{
     text-decoration: none;
