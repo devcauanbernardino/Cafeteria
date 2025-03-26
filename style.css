@@ -24,7 +24,7 @@ h1,a {
 
 h3 {
     text-align: center;
-    padding: 50px;
+    padding: 60px;
     color: white;
 }
 p {
@@ -54,7 +54,7 @@ button:hover {
     height: 820px;
     background-image: url(Imagens/cafe-1920.jpg);
     color: white;
-    display: flex;
+    display: block;
 }
 #sobre {
     width: 100%;
