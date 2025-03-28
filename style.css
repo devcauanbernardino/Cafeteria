@@ -136,6 +136,20 @@ button:hover {
     transform: scale(1.1);
     transition: 1s;
 }
+#video {
+    background-color: #5a3627;
+    padding: 90px 0px 90px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    .content-video {
+        background-color: #50241c;
+        padding: 20px;
+        margin: 30px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px #331712;
+    }
+}
 #rodape {
     width: 100%;
     height: 110px;
