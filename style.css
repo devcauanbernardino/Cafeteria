@@ -48,13 +48,15 @@ button:hover {
     padding: 30px 20px;
     background-color: #50241c;
     color: white;
+    box-shadow: -10px 5px 15px #53271f;
 }
 #home {
     width: 100%;
+    display: flex;
+    align-items: center;
     height: 820px;
     background-image: url(Imagens/cafe-1920.jpg);
     color: white;
-    display: block;
 }
 #sobre {
     width: 100%;
@@ -67,9 +69,6 @@ button:hover {
 .conteudo-home {
     width: 800px;
     margin: 0 auto;
-    position: absolute;
-    bottom: 200px;
-    left: 480px;
     text-align: center;
     box-shadow: 10px 10px 10px #5a3627;
     border:1px solid #5a3627;
@@ -128,6 +127,7 @@ button:hover {
         width: 500px;
         height: 680px;
         border-radius: 10px;
+        box-shadow: 10px 10px 10px #5a3627
     }
 
 }

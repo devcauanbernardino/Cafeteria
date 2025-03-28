@@ -3,7 +3,15 @@
     padding: 0;
 
 }
-main {
+#formulario {
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+}
+.content {
+    text-align: center;
 }
