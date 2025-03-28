@@ -57,6 +57,15 @@ button:hover {
     height: 820px;
     background-image: url(Imagens/cafe-1920.jpg);
     color: white;
+
+    .conteudo-home {
+        width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        box-shadow: 10px 10px 10px #5a3627;
+        border:1px solid #5a3627;
+        padding: 15px;
+    }
 }
 #sobre {
     width: 100%;
@@ -65,21 +74,13 @@ button:hover {
     bottom: -500px;
     background-color: rgb(56, 27, 14);
     color: white;
-}
-.conteudo-home {
-    width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    box-shadow: 10px 10px 10px #5a3627;
-    border:1px solid #5a3627;
-    padding: 15px;
-}
-.conteudo-sobre {
-    text-align: justify;
-    align-items: center;
-    position: absolute;
-    margin: 60px;
-    padding: 10px;
+    .conteudo-sobre {
+        text-align: justify;
+        align-items: center;
+        position: absolute;
+        margin: 60px;
+        padding: 10px;
+    }
 }
 .menu a{
     text-decoration: none;
