@@ -5,6 +5,9 @@
     font-size: 30px;
     font-family: "Winky Sans", sans-serif;
 }
+body {
+    background-image: linear-gradient(to right, #5a3627, #81503a, #d18b6b);
+}
 button {
     cursor: pointer;
     border-radius: 10px;
@@ -24,8 +27,8 @@ h1,a {
 
 h3 {
     text-align: center;
-    padding: 60px;
     color: white;
+    padding: 30px;
 }
 p {
     text-indent: 50px;
@@ -67,20 +70,19 @@ button:hover {
         padding: 15px;
     }
 }
-#sobre {
-    width: 100%;
-    height: 700px;
-    display: flex;
-    bottom: -500px;
+.conteudo-sobre {
+    text-align: justify;
+    align-items: center;
+    display: block;
+    margin: auto;
     background-color: rgb(56, 27, 14);
     color: white;
-    .conteudo-sobre {
-        text-align: justify;
-        align-items: center;
-        position: absolute;
-        margin: 60px;
-        padding: 10px;
-    }
+    width: 800px;
+    padding: 20px;
+    border-radius: 20px
+}
+.conteudo-sobre p {
+    padding: 20px;
 }
 .menu a{
     text-decoration: none;
